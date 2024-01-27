@@ -58,7 +58,7 @@ font-family: 'Ubuntu', sans-serif;
 }
 #HOME{
     justify-content: center;
-    min-height: 100vh;
+    min-height: 100dvh;
     padding-top: 60px;
 }
 a,p{
