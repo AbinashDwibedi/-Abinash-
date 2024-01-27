@@ -1,6 +1,6 @@
 body {
     background-image: var(--background-gradient-light);
-    background-image: url("project-back.jpg");
+/*     background-image: url("project-back.jpg"); */
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
