@@ -60,6 +60,8 @@ font-family: 'Ubuntu', sans-serif;
     justify-content: center;
     min-height: 100dvh;
     padding-top: 60px;
+    background-image: url(project-back.jpg);
+    border-bottom: 3px solid black;
 }
 a,p{
     display: block;
