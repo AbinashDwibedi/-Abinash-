@@ -60,7 +60,7 @@ font-family: 'Ubuntu', sans-serif;
     justify-content: center;
     min-height: 100dvh;
     padding-top: 60px;
-    background-image: url(project-back.png);
+    background-image: url(project-back.webp);
     border-bottom: 3px solid black;
 }
 a,p{
