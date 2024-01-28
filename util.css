@@ -58,10 +58,13 @@ font-family: 'Ubuntu', sans-serif;
 }
 #HOME{
     justify-content: center;
-    min-height: 100dvh;
+    min-height: 100vh;
     padding-top: 60px;
     background-image: url(project-back.webp);
+    background-attachment:local;
+    background-size:cover;
     border-bottom: 3px solid black;
+    width:100%;
 }
 a,p{
     display: block;
