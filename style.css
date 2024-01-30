@@ -551,7 +551,6 @@ img[alt^=logo] {
 /*     background: var(--background-theme);
     backdrop-filter: blur(10px); */
     width: 98%;
-    margin: 1%;
     padding: 30px 15px;
     border-radius: 2rem;
 }
