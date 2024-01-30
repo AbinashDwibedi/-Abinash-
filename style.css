@@ -3,7 +3,7 @@ body {
     background-image: url("project-back.webp");
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment:local;
+    background-attachment:fixed;
     transition: all .7s;
     overflow: hidden;
     width:100%;
