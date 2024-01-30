@@ -546,14 +546,12 @@ img[alt^=logo] {
 
 .project-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 310px);
+    grid-template-columns: repeat(auto-fit, minmax(280px ,1fr));
     gap: 10px;
-    /* grid-template-rows: repeat(auto-fit, minmax(200px min-height)); */
-    /* padding: 10px 5px 10px 5px; */
     justify-content: center;
     overflow-x: auto;
-/*     background: var(--background-theme); */
-/*     backdrop-filter: blur(10px); */
+/*     background: var(--background-theme);
+    backdrop-filter: blur(10px); */
     width: 98%;
     margin: 1%;
     padding: 30px 15px;
@@ -562,39 +560,36 @@ img[alt^=logo] {
 
 .project-box {
     background-color: var(--background-theme);
-  border-radius: 10px;
-  padding: 5px;
-  text-align: justify;
-  backdrop-filter: blur(60px);
-/*   flex-direction: column; */
-  overflow: hidden;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: justify;
+    backdrop-filter: blur(60px);
+    overflow: hidden;
 }
 
 .project-img {
-    height: 200px;
-    width: 300px;
+    height: 20rem;
+    width: 100%;
     border-radius: 10px;
     object-fit: cover;
     border: 4px solid var(--light-dark-mode);
 }
 
 .project-text {
-    height: 70px;
-    width: 300px;
+        width: 100%;
     background: var(--light-dark-mode);
     border-radius: 10px;
-    padding:10px;
+    padding: 10px;
 }
 .project-link{
     display: block;
     text-align: center;
     font-size: 25px;
     background: var(--type-color-dark-span);
-    /* margin: 10px 2px 0px 2px; */
-    height: 50px;
+    height: 5rem;
     border-radius: 5px;
     color: var(--light-dark-mode);
-    line-height: 50px;
+    line-height: 5rem;
 }
 .project-link:hover{
     background-color: rebeccapurple;
