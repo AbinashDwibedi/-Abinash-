@@ -566,14 +566,14 @@ img[alt^=logo] {
   padding: 5px;
   text-align: justify;
   backdrop-filter: blur(60px);
-  flex-direction: column;
+/*   flex-direction: column; */
   overflow: hidden;
 }
 
 .project-img {
     height: 200px;
     width: 300px;
-    border-radius: 10px 10px 0 0;
+    border-radius: 10px;
     object-fit: cover;
     border: 4px solid var(--light-dark-mode);
 }
@@ -582,18 +582,19 @@ img[alt^=logo] {
     height: 70px;
     width: 300px;
     background: var(--light-dark-mode);
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 10px;
+    padding:10px;
 }
 .project-link{
     display: block;
-  text-align: center;
-  font-size: 25px;
-  background: var(--type-color-dark-span);
-  margin: 9px;
-  height: 50px;
-  border-radius: 5px;
-  color: var(--light-dark-mode);
-  line-height: 50px;
+    text-align: center;
+    font-size: 25px;
+    background: var(--type-color-dark-span);
+    /* margin: 10px 2px 0px 2px; */
+    height: 50px;
+    border-radius: 5px;
+    color: var(--light-dark-mode);
+    line-height: 50px;
 }
 .project-link:hover{
     background-color: rebeccapurple;
