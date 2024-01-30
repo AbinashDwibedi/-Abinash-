@@ -34,7 +34,7 @@ body {
     height: 100vh;
     width: 100vw;
     z-index: 30;
-    background: var(--background-theme);
+    background:black;
     backdrop-filter: blur(60px);
     transition: all 1s linear;
 }
@@ -552,8 +552,8 @@ img[alt^=logo] {
     /* padding: 10px 5px 10px 5px; */
     justify-content: center;
     overflow-x: auto;
-    background: var(--background-theme);
-    backdrop-filter: blur(10px);
+/*     background: var(--background-theme); */
+/*     backdrop-filter: blur(10px); */
     width: 98%;
     margin: 1%;
     padding: 30px 15px;
