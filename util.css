@@ -52,7 +52,7 @@ font-family: 'Ubuntu', sans-serif;
 }
 
 
-.navbar,.project-box,.left-nav,.social-1,.left-nav-top,.display-load,#HOME,.my-experience,.social-tray,.loader,.project-title{
+.navbar,.left-nav,.social-1,.left-nav-top,.display-load,#HOME,.my-experience,.social-tray,.loader,.project-title{
     display: flex;
     align-items: center;
 }
