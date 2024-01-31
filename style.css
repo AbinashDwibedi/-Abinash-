@@ -553,6 +553,7 @@ img[alt^=logo] {
     width: 98%;
     padding: 30px 15px;
     border-radius: 2rem;
+    margin:auto;
 }
 
 .project-box {
